@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "827209507255",
+    "firebase_url": "https://easychatapplication.firebaseio.com",
+    "project_id": "easychatapplication",
+    "storage_bucket": "easychatapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827209507255:android:66f3d53c4052b0da",
+        "android_client_info": {
+          "package_name": "com.example.amrut.easychatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827209507255-uapqpmt5ifqho7pl4nj80ub96rl250a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amrut.easychatapplication",
+            "certificate_hash": "069D3CFA4F374DE37095DA09E52EDAEFE1AB5934"
+          }
+        },
+        {
+          "client_id": "827209507255-thhd3ke4u97orb60ngnqqt7u5n9377na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwQQqAype8ofvLfU7KVO6dcPTKJhVxp60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827209507255-thhd3ke4u97orb60ngnqqt7u5n9377na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

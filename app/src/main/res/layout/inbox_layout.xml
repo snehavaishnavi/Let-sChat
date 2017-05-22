@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rowItemContainer">
+    <ImageView
+        android:layout_width="40dp"
+        app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+        android:id="@+id/imageViewInboxUserPic"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewInboxUserPic"
+        android:layout_toEndOf="@+id/imageViewInboxUserPic"
+        android:id="@+id/textViewInboxUserName"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewInboxTimeStamp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewInboxUserMessage"
+        android:layout_below="@+id/textViewInboxUserName"
+        android:layout_toRightOf="@+id/imageViewInboxUserPic"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/blue_tick"
+        android:id="@+id/imageViewMsgIsRead"
+        android:layout_alignBottom="@+id/textViewInboxUserMessage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_width="40dp" />
+</RelativeLayout>
+
+</RelativeLayout>

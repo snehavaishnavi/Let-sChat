@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Easy Chat Application</string>
+    <string name="signInLabel">Sign IN</string>
+    <string name="email_hint">  Enter Email</string>
+    <string name="password_hint">  Enter Password</string>
+    <string name="appTitle">Welcome to Chat App</string>
+    <string name="firstNameHint">  Enter First Name</string>
+    <string name="lastNameHint">  Enter Last Name</string>
+    <string name="emailHint">Enter Email</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="repeatPasswrdHint">Repeat Password</string>
+    <string name="signUpLabel">Sign Up</string>
+    <string name="cancelHint">Cancel</string>
+    <string name="dont_hav_acc_label">Dont have an account ?</string>
+    <string name="signUpLinkLabel"><u>Sign Up</u></string>
+    <string name="facebook_app_id">1829544573991512</string>
+    <string name="view_profile_label">View Profile</string>
+    <string name="logout_label">Logout</string>
+    <string name="first_name_label">First Name: </string>
+    <string name="last_name_label">Last Name:</string>
+    <string name="gender_label">Gender: </string>
+    <string name="btn_ok_label">Ok</string>
+    <string name="btn_update_label">Update</string>
+    <string name="all_users_label">Available Users :</string>
+    <string name="profilePicLabel">Profile Picture :</string>
+    <string name="back_btn_label">Back</string>
+    <string name="send_msg_label">Send Message</string>
+    <string name="text_msg_hint">Type a Message</string>
+    <string name="inbox_label">Your Inbox :</string>
+    <string-array name="gender_list">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
